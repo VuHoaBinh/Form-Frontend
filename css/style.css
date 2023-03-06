@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    /* background: url('...'); */
+    /* background-size: cover; */
+    /* background-position-y: -80px; */
+    /* display: grid; */
+    /* height: 100%; */
+    place-items: center;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #FBAB7E 100%);
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    /* height: 55px;
+    width: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1); */
+}
+
+#form_login {
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    flex-grow: 1;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 20px 10px rgb(180, 171, 171);
+}
+
+.form_heading {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form_group i {
+    color: white;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.form_group {
+    border-bottom: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.form_forget a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form_forget {
+    border-bottom: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form_input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+    flex-grow: 1;
+    font-size: 15px;
+}
+
+.form_input::placeholder {
+    color: rgb(159, 152, 152);
+}
+
+#eye_pass i {
+    color: white;
+    padding-right: 0px;
+    /* position: fixed; */
+    display: flex;
+    cursor: pointer;
+    /* hien ban tay*/
+    position: relative;
+    justify-content: right;
+    align-content: right;
+    padding-bottom: 10px;
+}
+
+.abc {
+    display: flex;
+}
+
+.form_submit {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    border: 1px solid rgb(247, 0, 0);
+}
+
+.form_create {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    margin-top: 3px;
+    margin-left: 90px;
+    cursor: pointer;
+    justify-content: center;
+}
